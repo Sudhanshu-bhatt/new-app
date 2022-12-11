@@ -1,0 +1,73 @@
+.loginform{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('../../public/New\ folder/1.jpg');
+    background-size: cover;
+    
+
+}
+
+form{
+    top: 6rem;
+   position: relative;
+     height: 30rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+
+    box-shadow: 0 0 20px 0 rgba(5,16,59,0.3);
+   
+}
+h2{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    margin-top: 2rem;
+    color: rgb(48, 60, 78);
+
+}
+h5{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: blue;
+}
+form input{
+    padding: 0.2rem 1rem;
+    margin-bottom: 1rem;
+    border: none;
+border-bottom: 2px solid black;
+background: transparent;
+
+}
+
+button{
+    padding: 0.2rem 1rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+    z-index: 1;
+    background: rgb(48, 60, 78);
+    color: white;
+    width: 6rem;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    color: aqua;
+}
+#signupbutton{
+    position: relative;
+    left: 6rem;
+    top: 1rem;
+    
+}
